@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Appointments</title>
+</head>
+<body>
+  <div class="container">
+    <!-- Name -->
+    <label for="name">Name:</label>
+    <input id="name" class="form-control" type="text">
+
+    <!-- Favorite Food - Select Box -->
+    <select class="form-control" type="box">
+      <option value="chinese">Chinese</option>
+      <option value="sushi">Sushi</option>
+      <option value="thai">Thai</option>
+    </select>
+
+    <!-- Favorite Music - Radio Button -->
+    <div class="radio">
+      <label>
+        <input type="radio" name="music" value="techno" checked>
+        Techno
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="music" value="edm">
+        EDM
+      </label>
+    </div>
+    
+    <!-- What's your birthday - Calendar -->
+    <div vlass="form-group">
+      <label for="born">Date of Birth:</label>
+      <input id="born" class="form-control" type="date">
+    </div>
+
+    <!-- What's your favorite color - Color Picker -->
+    <div class="form-group">
+      <label for="color">What is your favorite color?</label>
+      <input id="color" class="form-control" type="color">
+    </div>
+
+    <!-- Tea or Coffee - Checkbox -->
+    <div class="Checkbox">
+      <label>
+        <input type="checkbox" name="drink type" value="tea" checked>
+        Tea
+      </label>
+    </div>
+    <div class="checkbox">
+      <label>
+        <input type="checkbox" name="drink type" value="coffee">
+        Coffee
+      </label>
+    </div>
+
+  </div>
+</body>
+</html>
